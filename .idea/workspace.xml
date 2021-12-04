@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="346f7749-5015-43ed-a904-7ea124eff834" name="Default Changelist" comment="simple socket" />
+    <list default="true" id="346f7749-5015-43ed-a904-7ea124eff834" name="Default Changelist" comment="simple socket">
+      <change afterPath="$PROJECT_DIR$/src/bio/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bio/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bio/server/ChatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bio/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="21aztR6eulCCsmicvf0SoRRU9sG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -44,13 +61,39 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bio.client.Client" />
+      <module name="io_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bio.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simple_socket.client.Client" />
       <module name="io_study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="simple_socket.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bio.server.Server" />
+      <module name="io_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bio.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
       </list>
@@ -89,7 +134,10 @@
       <option name="presentableId" value="Default" />
       <updated>1638194200800</updated>
       <workItem from="1638194205848" duration="3052000" />
-      <workItem from="1638197416654" duration="1310000" />
+      <workItem from="1638197416654" duration="2463000" />
+      <workItem from="1638367908137" duration="1692000" />
+      <workItem from="1638453769803" duration="3423000" />
+      <workItem from="1638584709321" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary="simple socket">
       <created>1638198695991</created>
@@ -98,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638198695991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="simple socket">
+      <created>1638198988468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638198988468</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +187,11 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_GENERIC_TABS">
@@ -139,6 +199,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="simple socket" />
@@ -149,6 +210,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1638194239738" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1638456661252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638456661252" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1638198435379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,9 +238,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638197262472" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1638198237494">
+    <state x="769" y="221" key="RollbackChangesDialog" timestamp="1638368557399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638198237494" />
+    <state x="769" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638368557399" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1638200238381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638200238381" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1638200352583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638200352583" />
   </component>
 </project>

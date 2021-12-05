@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346f7749-5015-43ed-a904-7ea124eff834" name="Default Changelist" comment="simple socket">
-      <change afterPath="$PROJECT_DIR$/src/bio/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bio/client/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bio/server/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bio/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nio/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nio/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nio/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +60,26 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bio.client.Client" />
       <module name="io_study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bio.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.client.Client" />
+      <module name="io_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_socket.server.Server" />
+    <configuration name="Server (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.server.Server" />
       <module name="io_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_socket.server.*" />
+          <option name="PATTERN" value="nio.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,10 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Server (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +151,7 @@
       <workItem from="1638367908137" duration="1692000" />
       <workItem from="1638453769803" duration="3423000" />
       <workItem from="1638584709321" duration="2709000" />
+      <workItem from="1638669217191" duration="8209000" />
     </task>
     <task id="LOCAL-00001" summary="simple socket">
       <created>1638198695991</created>
@@ -210,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1638194239738" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1638456661252">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1638677952127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638456661252" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638677952127" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1638198435379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -250,5 +264,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638200352583" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638676300662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638676300662" />
   </component>
 </project>

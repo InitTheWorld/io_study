@@ -11,10 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346f7749-5015-43ed-a904-7ea124eff834" name="Default Changelist" comment="simple socket">
-      <change afterPath="$PROJECT_DIR$/src/nio/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nio/client/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nio/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aio/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aio/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aio/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nio/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nio/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bio.client.Client" />
       <module name="io_study" />
@@ -88,24 +89,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simple_socket.client.Client" />
+      <option name="MAIN_CLASS_NAME" value="aio.client.Client" />
       <module name="io_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple_socket.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bio.server.Server" />
-      <module name="io_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bio.server.*" />
+          <option name="PATTERN" value="aio.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aio.server.Server" />
+      <module name="io_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aio.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Server (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Server (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +153,8 @@
       <workItem from="1638453769803" duration="3423000" />
       <workItem from="1638584709321" duration="2709000" />
       <workItem from="1638669217191" duration="8209000" />
+      <workItem from="1638799374248" duration="2995000" />
+      <workItem from="1638877434210" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="simple socket">
       <created>1638198695991</created>
@@ -224,10 +227,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1638194239738" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1638677952127">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1638880542468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638677952127" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638880542468" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1638880597474">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638880597474" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1638198435379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,9 +271,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638200352583" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638676300662">
+    <state x="800" y="276" key="refactoring.ChangeSignatureDialog" timestamp="1638801965562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638676300662" />
+    <state x="800" y="276" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638801965562" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638801222496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638801222496" />
   </component>
 </project>
